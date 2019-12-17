@@ -12,7 +12,7 @@ random.number
 ####2####
 
 random.number = numeric(20)
-random.seed=2018
+random.seed=2019
 for (j in 1:20) {
   random.seed = (171*random.seed)%%32767 
   random.number[j]= random.seed/32767 
